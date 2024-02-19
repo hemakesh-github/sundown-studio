@@ -440,18 +440,19 @@ nav{
 }
 
 .con-part2{
-   
+    
     height: 100%;
-
+    overflow: hidden;
 }
 
 .con-part2 img{
-    height: 100%;
+    position: relative;
+    top: -20%;
+    height: 150%;
     width: 100%;
     overflow: hidden;
     border-radius: 22px;
     object-fit: cover;
-
 }
 #selected{
     border-left: 2px solid #FF9831;
